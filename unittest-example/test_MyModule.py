@@ -1,6 +1,6 @@
 import unittest
 from mymodule import square, double
-
+#the functions should started by test in order to be immplemented
 class TestSquare(unittest.TestCase):
     def test1(self):
         self.assertEqual(square(2), 4)
